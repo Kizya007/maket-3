@@ -3,109 +3,107 @@ import "../assets/Category.scss"
 
 function Category() {
     return (
-        <div>
-            <div>
-                <div className="category__title">
-                    <span className="category__title__left">
-                        Популярные категории
-                    </span>
-                    <span className="category__title__right">
-                        Перейти в каталог
-                    </span>
-                </div>
-                <div className="category__list">
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                    <div className="category__list__item">
-                        <img src={Binocular} />
-                        <span>
-                            Бинокли
-                        </span>
-                        <span>
-                            35 товаров
-                        </span>
-                    </div>
-                </div>
+        <div className="categories">
+            <div className="categories__title">
+                <span className="categories__title">
+                    Популярные категории
+                </span>
+                <span className="categories__link">
+                    Перейти в каталог
+                </span>
             </div>
+            <ul className="categories__list">
+                <li className="category">
+                    <img src={Binocular}  className="category__img"/>
+                    <span className="category__name">
+                        Бинокли
+                    </span>
+                    <span className="category__count">
+                        35 товаров
+                    </span>
+                </li>
+                <div className="category">
+                    <img src={Binocular} />
+                    <span>
+                        Бинокли
+                    </span>
+                    <span>
+                        35 товаров
+                    </span>
+                </div>
+                <div className="category__list__item">
+                    <img src={Binocular} />
+                    <span>
+                        Бинокли
+                    </span>
+                    <span>
+                        35 товаров
+                    </span>
+                </div>
+                <div className="category__list__item">
+                    <img src={Binocular} />
+                    <span>
+                        Бинокли
+                    </span>
+                    <span>
+                        35 товаров
+                    </span>
+                </div>
+                <div className="category__list__item">
+                    <img src={Binocular} />
+                    <span>
+                        Бинокли
+                    </span>
+                    <span>
+                        35 товаров
+                    </span>
+                </div>
+                <div className="category__list__item">
+                    <img src={Binocular} />
+                    <span>
+                        Бинокли
+                    </span>
+                    <span>
+                        35 товаров
+                    </span>
+                </div>
+                <div className="category__list__item">
+                    <img src={Binocular} />
+                    <span>
+                        Бинокли
+                    </span>
+                    <span>
+                        35 товаров
+                    </span>
+                </div>
+                <div className="category__list__item">
+                    <img src={Binocular} />
+                    <span>
+                        Бинокли
+                    </span>
+                    <span>
+                        35 товаров
+                    </span>
+                </div>
+                <div className="category__list__item">
+                    <img src={Binocular} />
+                    <span>
+                        Бинокли
+                    </span>
+                    <span>
+                        35 товаров
+                    </span>
+                </div>
+                <div className="category__list__item">
+                    <img src={Binocular} />
+                    <span>
+                        Бинокли
+                    </span>
+                    <span>
+                        35 товаров
+                    </span>
+                </div>
+            </ul>
         </div>
     )
 }

@@ -5,12 +5,14 @@ import Bestseller from "../components/Bestseller"
 import Brands from "../components/Brands"
 import Item from "../components/Item"
 import "../assets/Global.scss"
+import Navigation from "../components/Navigation"
 
 
 export default function Home() {
   return (
     <div >
       <Header />
+      <Navigation/>
       <Banner />
       <Category />
       <Bestseller />

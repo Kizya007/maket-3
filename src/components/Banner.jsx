@@ -7,34 +7,33 @@ import ArrowRightt from "../assets/Icon/ArrowRightt"
 
 function Banner() {
     return (
-        <div className="banner">
+        <div className="banner slider">
             <div className="banner__slide">
                 <div className="banner__slide__img">
                     <img src={Pricel} />
                 </div>
-                <div className="banner__slide__img">
-                    <img src={Pricel2} />
-                </div>
+                {/* ссылка а не кнопка */}
                 <button className="banner__slide__btn">
                     Подробнее
                     <ArrowRight />
                 </button>
-                <button className="banner__slide__arrowleft">
+                {/* arrowLeft = slide-prev - slide-next */}
+                <button className="slide-prev">
                     <ArrowLeft />
                 </button>
-                <button className="banner__slide__arrowright">
+                <button className="slide-next">
                     <ArrowRightt />
                 </button>
-                <div className="banner__slide__list">
-                    <div className="banner__slide__lchange" >
+                <div className="navigation-dots">
+                    <div className="dot" >
                     </div>
-                    <div className="banner__slide__lchange" >
+                    <div className="dot" >
                     </div>
-                    <div className="banner__slide__lchange" >
+                    <div className="dot" >
                     </div>
-                    <div className="banner__slide__lchange" >
+                    <div className="dot" >
                     </div>
-                    <div className="banner__slide__lchange" >
+                    <div className="dot" >
                     </div>
                 </div>
             </div>
