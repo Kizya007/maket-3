@@ -6,18 +6,25 @@ import Brands from "../components/Brands"
 import Item from "../components/Item"
 import "../assets/Global.scss"
 import Navigation from "../components/Navigation"
+import NavigationCategory from "../components/NavigationCategory"
+import Advances from "../components/Advances"
+import OurProducts from "../components/OurProducts"
+
 
 
 export default function Home() {
   return (
     <div >
       <Header />
-      <Navigation/>
+      <Navigation />
+      <NavigationCategory />
       <Banner />
       <Category />
       <Bestseller />
       <Brands />
       <Item />
+      <Advances />
+      <OurProducts />
     </div>
   )
 }

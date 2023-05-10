@@ -12,12 +12,7 @@ function Banner() {
                 <div className="banner__slide__img">
                     <img src={Pricel} />
                 </div>
-                {/* ссылка а не кнопка */}
-                <button className="banner__slide__btn">
-                    Подробнее
-                    <ArrowRight />
-                </button>
-                {/* arrowLeft = slide-prev - slide-next */}
+                <a href="" className="banner__slide__btn">Подробнее <ArrowRight /></a>
                 <button className="slide-prev">
                     <ArrowLeft />
                 </button>

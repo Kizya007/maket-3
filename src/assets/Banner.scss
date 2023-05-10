@@ -37,9 +37,11 @@
     position: absolute;
     left: 50px;
     bottom: 40px;
+    text-decoration: none;
+    color: black;
 }
 
-.banner__slide__arrowleft {
+.slide-prev {
     cursor: pointer;
 
     position: absolute;
@@ -51,12 +53,12 @@
     border-radius: 50%;
 }
 
-.banner__slide__arrowright {
+.slide-next {
     cursor: pointer;
 
     position: absolute;
-    right: 310px;
-
+    right: 0px;
+   
     background: #F7F8FB;
     opacity: 0.8;
     border: 10px solid rgba(255, 255, 255, 0.3);

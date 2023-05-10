@@ -10,7 +10,7 @@ import ArrowLeft from "../assets/Icon/ArrowLeft"
 
 function Item() {
     return (
-        <div>
+        <div className="item">
             <div className="item__header">
                 <span className="item__header__list">
                     Рекомендуемые

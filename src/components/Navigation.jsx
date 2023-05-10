@@ -4,16 +4,17 @@ import Eye from '../assets/Icon/Eye'
 import Scales from '../assets/Icon/Scales'
 import Heart from '../assets/Icon/Heart'
 import ShoppingCart from '../assets/Icon/ShoppingCart'
+import "../assets/Navigation.scss"
 
 function Navigation() {
   return (
     <div className="navigation">
       <img src={Group} className="navigation-logo" />
-      <div className="navigation__input-wrap">
+      <div className="navigation-input__wrap">
         <input
           type="text"
           value={'Введите название: Бинокль армейский'}
-          className="navigation__input"
+          className="navigation-input"
         />
         <Search />
       </div>
@@ -25,13 +26,19 @@ function Navigation() {
           </a>
         </li>
         <li>
-          <Scales />
+          <a href="">
+            <Scales />
+          </a>
         </li>
         <li>
-          <Heart />
+          <a href="">
+            <Heart />
+          </a>
         </li>
         <li>
-          <ShoppingCart />
+          <a href="">
+            <ShoppingCart />
+          </a>
         </li>
       </ul>
     </div>
