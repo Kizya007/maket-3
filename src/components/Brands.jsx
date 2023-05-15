@@ -8,7 +8,7 @@ import Bresser from "../assets/img/Bresser.png"
 
 function Brands() {
     return (
-        <div className="brands">
+        <div className="brands container">
             <div className="brands__header">
                 <span className="brands__header__title">
                     Бренды

@@ -18,7 +18,10 @@ body {
   // size/line-height | family
   font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
 }
-
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
 /*
   Add your custom global styles here.
   The styles provided below are a minimal suggested starting point.

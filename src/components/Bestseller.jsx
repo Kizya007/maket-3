@@ -9,7 +9,7 @@ import ArrowRight from "../assets/Icon/ArrowRightt"
 
 function Bestseller() {
     return (
-        <div className="bestseller">
+        <div className="bestseller container">
             <div className="bestseller__header">
                 <span className="bestseller__title">
                     Хиты продаж
