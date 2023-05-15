@@ -13,6 +13,9 @@
     }
 
     &-list {
+        margin-top: 20px;
+        margin-right: 20px;
+
         display: flex;
 
         box-shadow: 0px 5px 20px rgba(63, 66, 69, 0.05);
@@ -22,6 +25,21 @@
 
         width: 376px;
         height: 325px;
+    }
+
+    &-list__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: rgba(241, 218, 9, 0.5);
+        border-radius: 10px;
+
+        width: 70px;
+        height: 70px;
+
+        margin-top: 30px;
+        margin-left: 25px;
     }
 
     &-list__item {
@@ -46,5 +64,41 @@
 
     }
 
+    &-list__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 15px;
+        padding: 6px 10px;
+
+        width: 140px;
+        height: 32px;
+
+        border: 1px solid #E0E1E3;
+        border-radius: 5px;
+
+        background: transparent;
+    }
+
+    .btn-circle {
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-left: 5px;
+
+        &__item {
+
+            margin-right: 5px;
+
+            width: 5px;
+            height: 5px;
+            background: #0b0d0f;
+            border-radius: 50%;
+        }
+    }
 
 }
