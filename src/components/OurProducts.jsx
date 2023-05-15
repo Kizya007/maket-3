@@ -3,8 +3,11 @@ import "../assets/Products.scss"
 
 function OurProducts() {
     return (
+        
         <div className="products">
             <span className="products-title">Наши товары</span>
+
+            {/* ul(cards)>li(card)>img(card)> ul(card-list)>a(card-list__link) */}
             <div className="products-list">
                 <div className="products-list__icon" >
                     <Binocular />

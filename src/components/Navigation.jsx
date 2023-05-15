@@ -16,6 +16,7 @@ function Navigation() {
           value={'Введите название: Бинокль армейский'}
           className="navigation-input"
         />
+        {/* распложить абсолютом внутри блока обертки */}
         <Search />
       </div>
       <ul>

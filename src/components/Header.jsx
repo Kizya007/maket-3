@@ -15,7 +15,8 @@ function Header() {
         <span className="header-location__city">Калининград</span>
       </div>
       <nav className="header-navigation">
-        <li>О компании</li>
+        {/* li = a / */}
+        {/* <a>О компании</a> */}
         <li>Доставка</li>
         <li>Оплата</li>
         <li>Акции</li>

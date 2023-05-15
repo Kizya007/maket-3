@@ -19,6 +19,7 @@ function Banner() {
                 <button className="slide-next">
                     <ArrowRightt />
                 </button>
+                {/* div = ul */}
                 <div className="navigation-dots">
                     <div className="dot" >
                     </div>
