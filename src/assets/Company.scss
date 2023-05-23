@@ -1,0 +1,41 @@
+.company {
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    &-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    &-subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    &-list__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    &-list {
+
+        list-style-type: disc;
+    }
+
+    &-list__item {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

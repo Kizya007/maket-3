@@ -1,4 +1,5 @@
 .products {
+
     display: flex;
     flex-direction: column;
     padding: 30px 25px;
@@ -10,6 +11,14 @@
         font-weight: 700;
         font-size: 32px;
         line-height: 46px;
+
+
+        margin-top: 60px;
+    }
+
+    &-cards {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     &-list {
@@ -23,7 +32,7 @@
 
         background: #FFFFFF;
 
-        width: 376px;
+        width: 353px;
         height: 325px;
     }
 
@@ -48,6 +57,28 @@
         align-items: flex-start;
     }
 
+    &-list__number {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+
+        margin-right: 5px;
+
+        color: #9A9C9E;
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            margin-right: 5px;
+        }
+
+        a:hover {
+            color: #3697E2;
+        }
+    }
+
     &-list__name {}
 
     li {
@@ -65,6 +96,8 @@
     }
 
     &-list__btn {
+        cursor: pointer;
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -79,6 +112,11 @@
         border-radius: 5px;
 
         background: transparent;
+
+    }
+
+    &-list__btn:hover {
+        color: #3697E2;
     }
 
     .btn-circle {

@@ -10,14 +10,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        margin-right: 15px;
     }
 
     &-location__city {
         display: flex;
         justify-content: center;
         align-items: center;
-
-        margin-right: 15px;
     }
 
     &-navigation {
@@ -26,10 +26,7 @@
         align-items: center;
 
         list-style: none;
-        
-        li {
-            margin-right: 15px;
-        }
+
         :nth-child(4) {
             background-color: yellow
         }
@@ -39,16 +36,48 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        margin-right: 20px;
+
+        &__icon {
+            margin-right: 5px;
+        }
     }
 
     &-mail {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        margin-right: 20px;
+
+        &__info {
+            margin-left: 10px;
+        }
     }
+
     &-authorization {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        &__btn {
+            cursor: pointer;
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+
+            border: none;
+            background: transparent;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        margin-right: 15px;
     }
 }

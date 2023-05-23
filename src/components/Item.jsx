@@ -11,26 +11,18 @@ import ArrowLeft from "../assets/Icon/ArrowLeft"
 function Item() {
     return (
         <div className="item">
-            <div className="item__header">
-                <span className="item__header__list">
-                    Рекомендуемые
-                </span>
-                <span className="item__header__list">
-                    Новинки
-                </span>
-                <span className="item__header__list">
-                    Самые просматриваемые
-                </span>
-                <span className="item__header__list">
-                    Скидки
-                </span>
-                <div>
-                    <span className="item__header__catalog">
-                        Смотреть весь каталог
-                    </span>
-                </div>
+            <div className="header">
+                <ul className="header-nav">
+                    <li className="header-nav__list">Рекомендуемые</li>
+                    <li className="header-nav__list">Новинки</li>
+                    <li className="header-nav__list">Самые просматриваемые</li>
+                    <li className="header-nav__list">Скидки</li>
+                </ul>
+                <a href="" className="header-catalog">
+                    Смотреть весь каталог
+                </a>
             </div>
-            <div className="item__list">
+            <div className="item-list">
                 <button className="item__list--btn__right">
                     <ArrowRight />
                 </button>

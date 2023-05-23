@@ -19,19 +19,13 @@ function Banner() {
                 <button className="slide-next">
                     <ArrowRightt />
                 </button>
-                {/* div = ul */}
-                <div className="navigation-dots">
-                    <div className="dot" >
-                    </div>
-                    <div className="dot" >
-                    </div>
-                    <div className="dot" >
-                    </div>
-                    <div className="dot" >
-                    </div>
-                    <div className="dot" >
-                    </div>
-                </div>
+                <ul className="navigation-dots">
+                    <li className="dot" ></li>
+                    <li className="dot" ></li>
+                    <li className="dot" ></li>
+                    <li className="dot" ></li>
+                    <li className="dot" ></li>
+                </ul>
             </div>
         </div>
     )

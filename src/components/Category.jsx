@@ -12,7 +12,7 @@ import image10 from "../assets/img/image 10.png"
 
 function Category() {
     return (
-        <div className="categories">
+        <div className="categories container">
             <div className="categories-header">
                 <span className="categories-header__title">
                     Популярные категории
@@ -36,10 +36,10 @@ function Category() {
                 <div className="category-list__item">
                     <img src={image2} />
                     <div className="category-list__value">
-                        <span>
-                            Бинокли
+                        <span className="category-name">
+                            Телескопы
                         </span>
-                        <span>
+                        <span className="category-count">
                             35 товаров
                         </span>
                     </div>
@@ -47,10 +47,10 @@ function Category() {
                 <div className="category-list__item">
                     <img src={image3} />
                     <div className="category-list__value">
-                        <span>
-                            Бинокли
+                        <span className="category-name">
+                            Дальномеры
                         </span>
-                        <span>
+                        <span className="category-count">
                             35 товаров
                         </span>
                     </div>
@@ -58,10 +58,10 @@ function Category() {
                 <div className="category-list__item">
                     <img src={image4} />
                     <div className="category-list__value">
-                        <span>
-                            Бинокли
+                        <span className="category-name">
+                            Зрительные трубы
                         </span>
-                        <span>
+                        <span className="category-count">
                             35 товаров
                         </span>
                     </div>
@@ -69,10 +69,10 @@ function Category() {
                 <div className="category-list__item">
                     <img src={image5} />
                     <div className="category-list__value">
-                        <span>
-                            Бинокли
+                        <span className="category-name">
+                            Прицелы
                         </span>
-                        <span>
+                        <span className="category-count">
                             35 товаров
                         </span>
                     </div>
@@ -80,10 +80,10 @@ function Category() {
                 <div className="category-list__item">
                     <img src={image6} />
                     <div className="category-list__value">
-                        <span>
-                            Бинокли
+                        <span className="category-name">
+                            Лупы
                         </span>
-                        <span>
+                        <span className="category-count">
                             35 товаров
                         </span>
                     </div>
@@ -91,10 +91,10 @@ function Category() {
                 <div className="category-list__item">
                     <img src={image7} />
                     <div className="category-list__value">
-                        <span>
-                            Бинокли
+                        <span className="category-name">
+                            Монокуляры
                         </span>
-                        <span>
+                        <span className="category-count">
                             35 товаров
                         </span>
                     </div>
@@ -102,10 +102,10 @@ function Category() {
                 <div className="category-list__item">
                     <img src={image8} />
                     <div className="category-list__value">
-                        <span>
-                            Бинокли
+                        <span className="category-name">
+                            Микроскопы
                         </span>
-                        <span>
+                        <span className="category-count">
                             35 товаров
                         </span>
                     </div>
@@ -113,10 +113,10 @@ function Category() {
                 <div className="category-list__item">
                     <img src={image9} />
                     <div className="category-list__value">
-                        <span>
-                            Бинокли
+                        <span className="category-name">
+                            Тепловизоры
                         </span>
-                        <span>
+                        <span className="category-count">
                             35 товаров
                         </span>
                     </div>
@@ -124,10 +124,10 @@ function Category() {
                 <div className="category-list__item">
                     <img src={image10} />
                     <div className="category-list__value">
-                        <span>
-                            Бинокли
+                        <span className="category-name">
+                            Цифровые камеры
                         </span>
-                        <span>
+                        <span className="category-count">
                             35 товаров
                         </span>
                     </div>

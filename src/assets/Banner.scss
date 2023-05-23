@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .banner__slide {
@@ -16,6 +17,8 @@
 
 .banner__slide__img {
     margin-right: 18px;
+
+    position: relative;
 }
 
 .banner__slide__btn {
@@ -39,6 +42,7 @@
     bottom: 40px;
     text-decoration: none;
     color: black;
+
 }
 
 .slide-prev {
@@ -58,19 +62,16 @@
 
     position: absolute;
     right: 0px;
-   
+
     background: #F7F8FB;
     opacity: 0.8;
     border: 10px solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
 }
 
-.banner__slide__list {
-
+.navigation-dots {
     position: absolute;
-    bottom: 30px;
-    left: 371px;
-
+    bottom: 0px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
 
@@ -81,16 +82,20 @@
     padding: 10px 15px;
 }
 
-.banner__slide__lchange {
+.dot {
     cursor: pointer;
 
     margin-right: 15px;
 
     width: 10px;
     height: 10px;
-    background: #ffff;
+    background: #D7D9DC;
     border-radius: 50%;
+
     &:nth-child(5) {
         margin-right: 0px;
     }
+}
+.dot:hover {
+    background: #FFFFFF;
 }

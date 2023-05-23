@@ -9,8 +9,6 @@
 }
 
 .bestseller__title {
-    margin-left: 65px;
-    margin-bottom: 20px;
 
     font-style: normal;
     font-weight: 700;
@@ -67,7 +65,7 @@
     background: #FFFFFF;
 
 
-    width: 298px;
+    width: 278px;
     height: 392px;
 }
 
@@ -135,7 +133,6 @@
 }
 
 .bestseller__item__priceee {
-    margin-right: 43px;
 
     font-style: normal;
     font-weight: 500;
@@ -166,7 +163,7 @@
 
 .bestseller__slide__lchange {
     cursor: pointer;
-    
+
     margin-right: 15px;
 
     width: 10px;
@@ -177,4 +174,9 @@
     &:nth-child(5) {
         margin-right: 0px;
     }
+
+}
+
+.bestseller__slide__lchange:hover {
+    background: #9A9C9E;
 }

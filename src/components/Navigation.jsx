@@ -8,7 +8,7 @@ import "../assets/Navigation.scss"
 
 function Navigation() {
   return (
-    <div className="navigation">
+    <div className="navigation container">
       <img src={Group} className="navigation-logo" />
       <div className="navigation-input__wrap">
         <input
@@ -16,11 +16,11 @@ function Navigation() {
           value={'Введите название: Бинокль армейский'}
           className="navigation-input"
         />
-        {/* распложить абсолютом внутри блока обертки */}
-        <Search />
+        <div className='navigation-input__search'>
+          <Search />
+        </div>
       </div>
       <ul>
-        {/* добавить обертку a -ссылку для иконок */}
         <li>
           <a href="">
             <Eye />

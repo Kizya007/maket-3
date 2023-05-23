@@ -17,8 +17,8 @@ function Bestseller() {
                 <span className="bestseller__subtitle">
                     Смотреть весь каталог
                     <button>
-                <ArrowRight/>
-                </button>
+                        <ArrowRight />
+                    </button>
                 </span>
             </div>
             <div className="bestseller__list__card">
@@ -215,18 +215,18 @@ function Bestseller() {
                     </div>
                 </div>
             </div>
-            <div className="bestseller__slide__list">
-                    <div className="bestseller__slide__lchange" >
-                    </div>
-                    <div className="bestseller__slide__lchange" >
-                    </div>
-                    <div className="bestseller__slide__lchange" >
-                    </div>
-                    <div className="bestseller__slide__lchange" >
-                    </div>
-                    <div className="bestseller__slide__lchange" >
-                    </div>
+            <ul className="bestseller__slide__list">
+                <div className="bestseller__slide__lchange" >
                 </div>
+                <div className="bestseller__slide__lchange" >
+                </div>
+                <div className="bestseller__slide__lchange" >
+                </div>
+                <div className="bestseller__slide__lchange" >
+                </div>
+                <div className="bestseller__slide__lchange" >
+                </div>
+            </ul>
         </div>
     )
 }

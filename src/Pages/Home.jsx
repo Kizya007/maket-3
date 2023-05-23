@@ -9,6 +9,9 @@ import Navigation from "../components/Navigation"
 import NavigationCategory from "../components/NavigationCategory"
 import Advances from "../components/Advances"
 import OurProducts from "../components/OurProducts"
+import Company from "../components/Company"
+import UserBar from "../components/UserBar"
+import Footer from "../components/Footer"
 
 
 
@@ -25,6 +28,9 @@ export default function Home() {
       <Item />
       <Advances />
       <OurProducts />
+      <Company />
+      <UserBar />
+      <Footer/>
     </div>
   )
 }

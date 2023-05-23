@@ -8,7 +8,11 @@
     &-header {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+
+        width: 100%;
+
+        margin-top: 60px;
     }
 
     &-header__title {
@@ -78,6 +82,8 @@
     }
 
     &-list__item {
+        cursor: pointer;
+
         width: 235px;
         height: 207px;
 
@@ -91,6 +97,15 @@
         background: #fff;
     }
 
+    &-list__item:hover {
+        box-shadow: 0px 5px 30px rgba(63, 66, 69, 0.15);
+        background: #FFFFFF;
+
+        border: none;
+
+        color: #3697E2;
+    }
+
     &-list__value {
         display: flex;
         flex-direction: column;
@@ -98,5 +113,12 @@
         justify-content: center;
 
         margin-top: 10px;
+    }
+
+    &-name {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
     }
 }

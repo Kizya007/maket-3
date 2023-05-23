@@ -15,31 +15,28 @@ function Header() {
         <span className="header-location__city">Калининград</span>
       </div>
       <nav className="header-navigation">
-        {/* li = a / */}
-        {/* <a>О компании</a> */}
-        <li>Доставка</li>
-        <li>Оплата</li>
-        <li>Акции</li>
-        <li>Распродажа</li>
+        <a href="">О компании</a>
+        <a href="">Доставка</a>
+        <a href="">Оплата</a>
+        <a href="">Акции</a>
+        <a href="">Распродажа</a>
       </nav>
       <ul className='header-messenger'>
-        <li><TelegramIcon /></li>
-        <li><ViberIcon /></li>
-        <li> <WhatsUpIcon /></li>
+        <li className='header-messenger__icon'><TelegramIcon /></li>
+        <li className='header-messenger__icon'><ViberIcon /></li>
+        <li className='header-messenger__icon'> <WhatsUpIcon /></li>
+        <li className='header-messenger__phone'>+7 495 215 0744</li>
       </ul>
-      {/* header-contacts */}
-      <span>+7 495 215 0744</span>
       <div className="header-mail">
         <MailIcon />
-        <span>sales@tele-optics.ru</span>
+        <span className='header-mail__info'>sales@tele-optics.ru</span>
       </div>
       <div className="header-authorization">
         <UserIcon />
-        <button>Вход</button>
+        <button className='header-authorization__btn'>Вход</button>
         <span>/</span>
-        <button>Регистрация</button>
+        <button className='header-authorization__btn'>Регистрация</button>
       </div>
-
     </header>
   )
 }
